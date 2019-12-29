@@ -7,8 +7,8 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.map {|x| x.capitalize + "!"} # Your code here
 end
 
-def long_planeteer_calls(array)
-  array.any? { |calls| calls.length > 4}
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |calls| calls.length > 4}
 end 
   # code an argument here
   # Your code here
