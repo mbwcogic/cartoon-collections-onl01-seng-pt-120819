@@ -18,6 +18,7 @@ end
   # the array below is here to help
  # cheese_types = ["cheddar", "gouda", "camembert"]
 #end
+
 def find_the_cheese(potentially_cheesy_items)
   cheeses = %w[gouda cheddar camembert]
 
